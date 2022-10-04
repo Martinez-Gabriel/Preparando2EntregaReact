@@ -1,0 +1,49 @@
+.hola{
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tamaño {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.nose {
+ width: 50%;
+}
+
+.nose1 {
+    width: 50%;
+   }
+
+.tamañoCardNombre {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-button {
+    background-color: rgba(98, 98, 119, 0.142);
+}
+
+.botonCarrito {
+    margin: 0.4rem
+}
+
+  .cardProducto {
+    width: 18rem;
+    margin: 10px;
+  }
+
+.contenedorProductos {
+    display: flex;
+    justify-content: center ;
+}
+
+.h1Productos{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
