@@ -15,7 +15,7 @@ const Producto = () => {
 
     return (
         
-            <div className="card mb-3 containerProductos">
+            <div className="card m-4 containerProductos d-flex justify-content-center">
                 <DetalleProducto producto={producto}/>
             </div>
 

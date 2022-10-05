@@ -5,8 +5,9 @@ const Home = () => {
     const [productos, setProductos] = useState([]);
     useEffect(() => {
         consultarBDD('./json/productos.json').then(productos => {
+            
             const cardProducto = productos.map(producto => 
-                <div className="card cardProducto" key={producto.id}>
+                <div className="card cardProducto animacion-btn m-4" key={producto.id}>
                     <img src={"./img/" + producto.img} className="card-img-top" alt={producto.nombre} />
                         <div className="card-body">
                             <h5 className="card-title">{producto.nombre}</h5>
@@ -24,7 +25,8 @@ const Home = () => {
 
 
     return (
-        <div className="row containerProductos">
+        <div className="row containerProductos d-flex justify-content-center">
+            <h1 className='d-flex justify-content-center p-4'>Tienda APK!</h1>
             {productos}     
         </div>      
         

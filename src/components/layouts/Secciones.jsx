@@ -4,7 +4,7 @@ const Secciones = () => {
     return (
         <>
           <li className="nav-item">
-            <Link className="nav-link active" to="/"><button className='btn btn-dark'>Productos</button></Link>
+            <Link className="nav-link active" to="/"><button className='btn btn-dark'>Inicio</button></Link>
         </li>
         <li className="nav-item">
             <Link className="nav-link active" to="/contacto"><button className='btn btn-dark'>Nosotros</button></Link>

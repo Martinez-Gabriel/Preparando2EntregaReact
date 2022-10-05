@@ -10,7 +10,7 @@ const Categoria = () => {
             const productosCategoria = productos.filter(producto => producto.idCategoria === parseInt(id) )
             console.log(productosCategoria)
             const cardProducto = productosCategoria.map(producto => 
-                <div className="card cardProducto containerProductos" key={producto.id}>
+                <div className="card cardProducto containerProductos animacion-btn m-4" key={producto.id}>
                     <img src={"../img/" + producto.img} className="card-img-top" alt={producto.nombre} />
                         <div className="card-body">
                         <h5 className="card-title">{producto.nombre}</h5>

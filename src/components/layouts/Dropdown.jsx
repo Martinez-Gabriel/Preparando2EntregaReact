@@ -17,7 +17,7 @@ const Dropdow = ({lista}) => {
 
           <div class="btn-group">
             <button type="button"  class="btn btn-danger dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
-            
+            Filtrar
             </button>
             <ul class="dropdown-menu">
               <li>{list}</li>

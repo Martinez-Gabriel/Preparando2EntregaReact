@@ -64,3 +64,12 @@
     display: flex;
     justify-content: center;
 }
+
+.animacion-btn {
+    transition:linear 4s;
+}
+
+.animacion-btn:hover {
+    transform: scale(1.10);
+    transition: all 0.1s;
+}

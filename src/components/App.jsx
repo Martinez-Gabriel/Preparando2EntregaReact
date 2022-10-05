@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import '../styles/App.css'
 import Navbar from './content/Navbar';
 import Carrito from './content/Carrito';
-import Home from './content/Home';
+import Home from './content/Inicio';
 import About from './content/Ayuda';
 import Contacto from './content/Nosotros';
 import Producto from './content/Producto';
